@@ -35,15 +35,17 @@
             </select>
             <input id="botao" type="submit" value="Calcular">
         </form>
-        <h1 id="resultado">
-            <?php
-                //Verificando se existe a variavel de session resultado
-                if(isset($_SESSION['resultado'])){
-                    //Caso exista, utiliza um echo para exibir o resultado
-                    echo $_SESSION['resultado'];
-                }
-            ?>
-        </h1>
+        <div class="div-result">
+            <p id="resultado">
+                <?php
+                    //Verificando se existe a variavel de session resultado
+                    if(isset($_SESSION['resultado'])){
+                        //Caso exista, utiliza um echo para exibir o resultado
+                        echo "Resultado é: " , $_SESSION['resultado'];
+                    }
+                ?>
+            </p>
+        </div>
         <img src="img/google-play.png">
     </div>
 

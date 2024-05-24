@@ -79,6 +79,19 @@ header h1{
     width: 20%;
     height: 100px;
 }
+
+.div-result{
+    border: solid black 1px;
+    width: 20%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultado{
+    font-size: 16px;
+}
 /*------ FIM CONTEÚDO ------*/
 
 /*--------- RODAPE ---------*/
