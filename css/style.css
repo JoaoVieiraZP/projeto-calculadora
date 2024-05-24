@@ -82,8 +82,8 @@ header h1{
 
 .div-result{
     border: solid black 1px;
-    width: 20%;
-    height: 25px;
+    width: 30%;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: center;

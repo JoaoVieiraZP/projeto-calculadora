@@ -22,12 +22,12 @@
     </nav>
     
     <div class="div-conteudo">
-        <form method="GET" action="logica/processamento.php">
+        <form method="GET" action="logica/processamentoTemp.php">
             <label>Temperatura:</label>
             <input type="text" name="inputTemp" placeholder="Digite o número 1">
             <select name="selectOperacoes">
                 <option value="Celsius">Celsius para Farhrenheit</option>
-                <option value="subtracao">Farhrenheit para Celsius</option>
+                <option value="Farhrenheit">Farhrenheit para Celsius</option>
             </select>
             <input id="botao" type="submit" value="Calcular">
         </form>
