@@ -24,4 +24,19 @@ function farhrenheit($graus){
     return(($graus - 32) * (5/9));
 }
 
+function centimetros($medida){
+    return($medida * 100);
+}
+
+function metros($medida){
+    return($medida / 100);
+}
+
+function quilometros($medida){
+    return($medida / 1000);
+}
+
+function metrosKM($medida){
+    return($medida * 1000);
+}
 ?>

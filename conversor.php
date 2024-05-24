@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1>Temperatura</h1>
+        <h1>Conversor de Medidas</h1>
     </header>
     <nav class="menu">
         <ul>
@@ -22,12 +22,14 @@
     </nav>
     
     <div class="div-conteudo">
-        <form method="GET" action="logica/processamentoTemp.php">
-            <label>Temperatura:</label>
-            <input type="text" name="inputTemp" placeholder="Digite a temperatura">
+        <form method="GET" action="logica/processamentoConversor.php">
+            <label>Conversor de Medidas:</label>
+            <input type="text" name="inputComp" placeholder="Digite a medida">
             <select name="selectOperacoes">
-                <option value="Celsius">Celsius para Farhrenheit</option>
-                <option value="Farhrenheit">Farhrenheit para Celsius</option>
+                <option value="Centimetros">Centrimetros para Metros</option>
+                <option value="Metros">Metros para Centimetros</option>
+                <option value="Quilometro">Metros para Quilômetros</option>
+                <option value="MetrosKM">Quilômetros para Metros</option>
             </select>
             <input id="botao" type="submit" value="Calcular">
         </form>
